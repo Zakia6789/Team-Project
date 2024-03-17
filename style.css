@@ -33,7 +33,7 @@
     /* font-size: 28px; */
    
 }
-#logo{
+.logo{
     width: 150px;
     
 }
@@ -109,4 +109,14 @@
 
 #recipess{
   margin-bottom: 2650px;
+}
+
+
+
+.imageDiv{
+display: flex;
+flex-direction: row;
+/* justify-content: space-between; */
+align-items: center;
+gap: 15px;
 }
