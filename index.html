@@ -1,0 +1,771 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <style>
+        #button {
+            display: inline-block;
+            border-radius: 5px;
+            background-color: crimson;
+            border: none;
+            color: #FFFFFF;
+            text-align: center;
+            font-size: 18px;
+            padding: 8px 13px;
+            transition: all 0.5s;
+            cursor: pointer;
+            margin: 5px;
+            width: 20m0px;
+        }
+
+        #button span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+
+        #button span::after {
+            content: '\00bb';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            right: -20px;
+            transition: 0.5s;
+        }
+
+        #button:hover span {
+            padding-right: 25px;
+        }
+
+        #button:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
+    </style>
+    <title>Niribili Bhoj</title>
+    <link rel="stylesheet" href="style.css">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <section class="container mt-5  d-none d-md-block ">
+            <div id="about">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 position-relative pt-5">
+                        <div class="">
+                            <img src="./images/rotate-image-1.jpg" alt="" class="rotate-45 img-fluid ">
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle"
+                            style="transform: rotate(45deg);">
+                            <img src="./images/rotate-image-2.jpg" alt="" class="rotate-45 img-fluid ">
+                        </div>
+                    </div>
+
+                    <div class="  col-12 col-md-6 mt-3 ">
+                        <h2 class="heading">about Us</h2>
+                        <h1 class="heading_one">WE ARE TASTY</h1>
+                        <p><img src="./images/arrow-trend-up (1).png" alt=""></p>
+                        <p>Niribili Bhoj, an epitome of culinary delight, invites you on a gastronomic journey through
+                            the heart of traditional Indian cuisine. Nestled in the vibrant streets, it exudes warmth
+                            and hospitality, welcoming patrons to indulge in a symphony of flavors. </p>
+                        <p> With an ambiance that echoes authenticity, each dish crafted with finesse tells a story of
+                            heritage and passion. From aromatic biryanis to succulent kebabs and decadent curries, every
+                            bite is a celebration of taste and tradition. Whether it's a casual outing with friends or a
+                            special occasion, Niribili Bhoj promises an unforgettable dining experience where food is
+                            not just a meal but a celebration of life.</p>
+                        <button id="button" style="vertical-align:middle"><span>Read More</span></button>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- aboutForSmallDeviceStart -->
+        <section class="container mt-5  d-block d-md-none  ">
+            <div id="about">
+                <div class="row">
+
+                    <div class="col-12 col-md-6 position-relative p-5">
+                        <div class="">
+                            <img src="./images/rotate-image-1.jpg" alt="" class="rotate-45 img-fluid ">
+                        </div>
+                        <div class="position-absolute top-50 start-50 translate-middle"
+                            style="transform: rotate(45deg);">
+                            <img src="./images/rotate-image-2.jpg" alt="" class="rotate-45 img-fluid ">
+                        </div>
+                    </div>
+
+                    <div class="  col-12 col-md-6 mt-5  ">
+                        <h2 class="heading">about Us</h2>
+                        <h1 class="heading_one">WE ARE TASTY</h1>
+                        <p><img src="./images/arrow-trend-up (1).png" alt=""></p>
+                        <p>Niribili Bhoj, an epitome of culinary delight, invites you on a gastronomic journey through
+                            the heart of traditional Indian cuisine. Nestled in the vibrant streets, it exudes warmth
+                            and hospitality, welcoming patrons to indulge in a symphony of flavors. </p>
+                        <p> With an ambiance that echoes authenticity, each dish crafted with finesse tells a story of
+                            heritage and passion. From aromatic biryanis to succulent kebabs and decadent curries, every
+                            bite is a celebration of taste and tradition. Whether it's a casual outing with friends or a
+                            special occasion, Niribili Bhoj promises an unforgettable dining experience where food is
+                            not just a meal but a celebration of life.</p>
+
+                        <button id="button" style="vertical-align:middle"><span>Read More</span></button>
+
+
+
+
+
+
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- aboutForSmallDeviceEnd -->
+
+        <!-- DeliciusSectionStarted -->
+        <section class="container mt-5  ">
+            <div id="delicious_section">
+                <h1 id="header_one">Our Delicious</h1>
+                <h3 id="header_three">Magical Experience</h3>
+                <img src="./Delicius/logo.png" alt="" id="logo" class="w-">
+            </div>
+
+
+            <div class="row">
+
+                <div class="col-12 col-md-6 ">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <img src="./Delicius/delicious_1.jpg" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Break Fast</h2>
+                                    <p class="card-text " id="cardText">Start your day right with our delicious
+                                        breakfast options featuring fresh ingredients, hearty classics, and .</p>
+                                    <button class="btn " id="bbtn">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 ">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <img src="./Delicius/delicious_2.jpg" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-12 col-lg-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Delicious Lunch</h2>
+                                    <p class="card-text " id="cardText">"Savor our delectable lunch specials, bursting
+                                        with flavor and freshness to tantalize your taste buds every day."</p>
+                                    <button class="btn " id="bbtn">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-12 col-md-6 ">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <img src="./Delicius/delicious_3.jpg" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Dinner</h2>
+                                    <p class="card-text " id="cardText">"Indulge in our exquisite dinner menu, featuring
+                                        culinary delights crafted with passion and served with elegance."</p>
+                                    <button class="btn " id="bbtn">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 col-md-6 ">
+                    <div class="card mb-3">
+                        <div class="row g-0">
+                            <div class="col-lg-6">
+                                <img src="./Delicius/delicious_4.jpg" class="img-fluid w-100 rounded-start" alt="...">
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="card-body">
+                                    <h2 class="card-title">Desserts</h2>
+                                    <p class="card-text " id="cardText">"Experience sweet bliss with our irresistible
+                                        desserts, handcrafted to satisfy your cravings and elevate your."</p>
+                                    <button class="btn " id="bbtn">Order Now</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- DeliciusSectionEnded -->
+
+        <!-- RecipesSEctionStartLarge Device -->
+        <section class="recipes mt-5 mb-5 pb-5 d-none  d-md-block  ">
+            <div class="container mt-5 ">
+                <h2 class="heading">Special Recipes</h2>
+                <h1 class="heading_one">TASTE OF PRECIOUS</h1>
+                <p><img src="./images/arrow-trend-up (1).png" alt=""></p>
+                <p>"Exquisite flavors crafted with passion, savor every bite with delight. "Exquisite flavors crafted
+                    with passion, <br> savor every bite with delight."Exquisite flavors crafted with passion, savor
+                    every bite with delight."</p>
+
+            </div>
+            <div class="position-relative " id="position_div">
+
+                <div class="container-fluid mt-5 ">
+                    <img src="./Recipes/background1.jpg" alt="" class="img-fluid w-100 " id="bg_one">
+                </div>
+
+                <div class="container position-absolute top-50 start-50 translate-middle  ">
+
+                    <div class="row row-cols-1 row-cols-md-4 ">
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger "
+                                style="width:300px ">
+                                <img class="card-img-top" src="./Recipes/img8.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 8</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px ">
+                                <img class="card-img-top" src="./Recipes/img7.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 7</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px">
+                                <img class="card-img-top" src="./Recipes/img6.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 6</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px">
+                                <img class="card-img-top" src="./Recipes/img5.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 5</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row row-cols-1 row-cols-md-4  ">
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px">
+                                <img class="card-img-top" src="./Recipes/img4.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 4</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px ">
+                                <img class="card-img-top" src="./Recipes/img3.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 3</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px">
+                                <img class="card-img-top" src="./Recipes/img2.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 2</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:300px">
+                                <img class="card-img-top" src="./Recipes/img1.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 1</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RecipesSEctionEndedLarge Device -->
+
+        <!-- for small device RecipesSEctionStart -->
+        <section id="recipess" class="recipes mt-5 d-block   d-md-none">
+            <div class="container mt-5 ">
+                <h2 class="heading">Special Recipes</h2>
+                <h1 class="heading_one">TASTE OF PRECIOUS</h1>
+                <p><img src="./images/arrow-trend-up (1).png" alt=""></p>
+                <p>"Exquisite flavors crafted with passion, savor every bite with delight. "Exquisite flavors crafted
+                    with passion, <br> savor every bite with delight."Exquisite flavors crafted with passion, savor
+                    every bite with delight."</p>
+
+            </div>
+            <div class="position-relative " id="position_div">
+
+                <div class="container-fluid mt-5 " id="bacg">
+                    <img src="./Recipes/background1.jpg" alt="" class="img-fluid w-100 " id="bg_one">
+                </div>
+
+                <div class="container position-absolute top-50 start-50 translate-middle  ">
+
+                    <div class="row row-cols-1 row-cols-md-4  gy-4   mx-auto " id="phone_recipes">
+                        <div class="col ">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger "
+                                style="width:340px ">
+                                <img class="card-img-top" src="./Recipes/img8.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 8</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px ">
+                                <img class="card-img-top" src="./Recipes/img7.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 7</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px">
+                                <img class="card-img-top" src="./Recipes/img6.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 6</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px">
+                                <img class="card-img-top" src="./Recipes/img5.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 5</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="row row-cols-1 row-cols-md-4  gy-4 mx-auto  ">
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px">
+                                <img class="card-img-top" src="./Recipes/img4.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 4</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px ">
+                                <img class="card-img-top" src="./Recipes/img3.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 3</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px">
+                                <img class="card-img-top" src="./Recipes/img2.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 2</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card text-center border-1 border-opacity-80  border border-danger"
+                                style="width:340px">
+                                <img class="card-img-top" src="./Recipes/img1.jpg" alt="Card image">
+                                <div class="card-body">
+                                    <h5 class="card-title">HOT DOG 1</h5>
+                                    <img src="./Recipes/4-stars.jpg" alt="" id="starImg">
+                                    <p class="card-text">"Exquisite flavors crafted with passion, savor every bite with
+                                        delight."</p>
+                                    <h2 id="price">$2.56</h2>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- RecipesSEctionEnd -->
+
+
+        <!-- OurServicesSectionStarted -->
+        <section id="serviceSection" class="container mt-5 mb-5 pt-5 ">
+            <div class=" mt-5 pt-5">
+                <h2 class="heading"> Our Services</h2>
+                <h1 class="heading_one">WHAT WE OFFER</h1>
+                <p><img src="./services/arrow-trend-up (1).png" alt=""></p>
+                <p>Savor our signature dish: succulent lobster tails drizzled in a creamy garlic butter <br> sauce, a
+                    culinary masterpiece bursting with flavor.</p>
+            </div>
+
+            <div>
+                <div class="row row-cols-1 row-cols-md-4 text-center gy-4 ">
+                    <div class="col">
+                        <!-- Button trigger modal -->
+                        <div><img src="./services/image-8.jpg" alt="" type="modal" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal"></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Breakfast</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Slithering serpents, fascinating and feared, embody nature's enigma with
+                                            their sleek scales and mesmerizing movements.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <!-- Button trigger modal -->
+                        <div><img src="./services/image-10.jpg" alt="" type="modal" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal1"></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel1">Breakfast</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Slithering serpents, fascinating and feared, embody nature's enigma with
+                                            their sleek scales and mesmerizing movements.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <!-- Button trigger modal -->
+                        <div><img src="./services/image-8.jpg" alt="" type="modal" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal2"></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Dinner</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Slithering serpents, fascinating and feared, embody nature's enigma with
+                                            their sleek scales and mesmerizing movements.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                    <div class="col">
+                        <!-- Button trigger modal -->
+                        <div><img src="./services/image-8.jpg" alt="" type="modal" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal3"></div>
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel"
+                            aria-hidden="true">
+                            <div class="modal-dialog">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Others</h1>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <p>Slithering serpents, fascinating and feared, embody nature's enigma with
+                                            their sleek scales and mesmerizing movements.</p>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary"
+                                            data-bs-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+
+            <div class="mt-0 mt-md-5 pt-0 pt-md-5 d-none d-md-block  ">
+                <div class="row  ">
+                    <div class="col-12 col-md-3">
+                        <div class="imageIcons">
+                            <div><img src="./icons/glass-1.png" alt="" class="">
+                                <h5> OTHERS </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-3">
+                        <div class="imageIcons">
+                            <div><img src="./icons/dinner2.png" alt="" class="">
+                                <h5> DINNER </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-12 col-md-3">
+                        <div class="imageIcons">
+                            <div><img src="./icons/lunch3.png" alt="">
+                                <h5> LUNCH </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class=" col-12 col-md-3 ">
+                        <div class="imageIcons">
+                            <div><img src="./icons/breakfast4.png" alt="">
+                                <h5> BREAKFAST </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+            <div id="whatOffer" class=" d-block d-md-none  ">
+                <div class="row row-cols-1 row-cols-md-4  mt-5  ">
+                    <div class="col gy-4">
+                        <div class="imageIcons">
+                            <div><img src="./icons/glass-1.png" alt="" class="">
+                                <h5> OTHERS </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col gy-4">
+                        <div class="imageIcons">
+                            <div><img src="./icons/dinner2.png" alt="" class="">
+                                <h5> DINNER </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col gy-4">
+                        <div class="imageIcons">
+                            <div><img src="./icons/lunch3.png" alt="">
+                                <h5> LUNCH </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class=" col gy-4">
+                        <div class="imageIcons">
+                            <div><img src="./icons/breakfast4.png" alt="">
+                                <h5> BREAKFAST </h5>
+                                <p>Explore diverse flavors, from savory and tangy to sweet and spicy, offering a
+                                    culinary journey for every palate.</p>
+                                <button id="button" style="vertical-align:middle"><span>Learn More</span></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- OurServicesSectionEnded -->
+
+
+
+
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src=" https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

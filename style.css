@@ -1,0 +1,112 @@
+ body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+.heading{
+    font-family: Brush Script MT;
+    font-size: 40px ;
+    color: crimson;
+    font-weight: semi-bold;
+}
+
+#heading_one{
+    font-family: Georgia;
+    font-weight: bold;
+}
+
+.rotate-45 {
+    transform: rotate(55deg);
+    transform-origin: center;
+}
+
+.header_one {
+    font-family: 'Georgia Narrow';
+    font-weight: 500;
+    /* font-style: oblique; */
+}
+
+#header_three {
+    font-family: Brush Script MT;
+    color: #95a5a6;
+    /* font-size: 28px; */
+   
+}
+#logo{
+    width: 150px;
+    
+}
+
+#delicious_section{
+    text-align: center;
+  }
+
+  .card-title{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  #cardText{
+    color: #95a5a6;
+  }
+
+  #bbtn{
+     border: 1px solid green;
+    border-radius: 0;
+    padding: 10px 15px; 
+  }
+  #bbtn:hover{
+    background-color: #95a5a6;
+    color: white;
+  } 
+
+#starImg{
+  width: 100px;
+}
+#price{
+  color: crimson;
+}
+
+ #bg_one{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 80vh;
+  background-size: cover;
+  background-position: center;
+}
+
+#position_div{
+   margin-top:200px ;
+} 
+/* for mobile */
+#phone_recipes{
+  margin-top: 2500px;
+}
+#bacg{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  height: 90vh;
+  background-size: cover;
+  background-position:center ;
+  /* margin-top: 50px; */
+}
+/* recipesSectionEnded */
+
+ .modal-title{
+  color: crimson;
+} 
+
+/* modalEnded */
+/* OurServicesSectionStarted */
+
+.imageIcons{
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  gap: 10px;
+}
+
+/* OurServicesSectionEnded */
+
+#recipess{
+  margin-bottom: 2650px;
+}
